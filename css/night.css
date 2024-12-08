@@ -1,0 +1,46 @@
+html, body {
+    background: #3a3a3a;;
+    color: #eaeaea;;
+}
+
+.out, .in {
+    background: #7e7e7e;
+    border: 1px solid #5f5f5f;
+    color: #fff;
+}
+
+input[type="email"], input[type="number"], input[type="search"], input[type="text"], input[type="tel"], input[type="url"], input[type="password"], textarea, select {
+    background: #7e7e7e;
+    border: 1px solid #5f5f5f;
+    color: #fff;
+    caret-color : #fff;
+}
+
+
+input[type="email"]:hover, input[type="number"]:hover, input[type="search"]:hover, input[type="text"]:hover, input[type="tel"]:hover, input[type="url"]:hover, input[type="password"]:hover, textarea:hover, select:hover {
+    background: #727272;
+    border: 1px solid orange;
+    caret-color : #fff;
+}
+
+.button.button-primary:hover, button.button-primary:hover, input[type="submit"].button-primary:hover, input[type="reset"].button-primary:hover, input[type="button"].button-primary:hover, .button.button-primary:focus, button.button-primary:focus, input[type="submit"].button-primary:focus, input[type="reset"].button-primary:focus, input[type="button"].button-primary:focus {
+    color: #c4c4c4;
+    background-color: #177d9c;
+    border-color: #07323f;
+}
+
+.button.button-primary:active, button.button-primary:active, input[type="submit"].button-primary:active, input[type="reset"].button-primary:active, input[type="button"].button-primary:active {
+    color: #ffffff;
+    background-color: #0c93bd;
+    border-color: #06465a;
+}
+
+.button.button-primary,
+button.button-primary,
+input[type="submit"].button-primary,
+input[type="reset"].button-primary,
+input[type="button"].button-primary {
+    color: #b6b6b6;
+    background-color: #206074;
+    border-color: #07323f; ;}
+
