@@ -78,7 +78,7 @@ function pressKey(event) {
 	blocks[y * 4 + x].classList.add('active');
 
 	if (error === 2) {
-		document.querySelector('.h3').textContent = 'Нou lost!';
+		document.querySelector('.h3').textContent = 'You lost!';
 		setTimeout(function () {
 			location.reload();
 		}, 2000);
@@ -86,7 +86,7 @@ function pressKey(event) {
 	}
 
 	if (step === 9) {
-		document.querySelector('.h3').textContent = 'Нou win!!';
+		document.querySelector('.h3').textContent = 'You win!!';
 		setTimeout(function () {
 			location.reload();
 		}, 2000);
